@@ -1,4 +1,4 @@
-
+![image](https://github.com/SoloXeniya/SoloXeniya/assets/143397164/5a774eeb-dfda-4b4f-aa32-effcd8d2c850)
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ksenija.solovjova) 
 
