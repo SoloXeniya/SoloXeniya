@@ -18,17 +18,15 @@ jobs:
           github_user_name: SoloXeniya
           outputs: |
             dist/only-svg/github-contribution-grid-snake-dark.svg?palette=github-dark
+                     
 
       - uses: Platane/snk@v3
         with:
           github_user_name: SoloXeniya
           outputs: |
 
-            dist/docker/github-contribution-grid-snake-dark.gif?palette=github-dark, color_snake=orange
-            dist/docker/github-contribution-grid-snake-dark.gif?color_snake=orange&palette=github-dark,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
-
-            dist/docker/github-contribution-grid-snake-dark.gif?color_snake=orange&color_dots=%23000000,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
-            dist/docker/github-contribution-grid-snake-dark.svg?color_snake=orange&color_dots=%23000000,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
+            dist/docker/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/docker/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
 
       - name: ensure the generated file exists
