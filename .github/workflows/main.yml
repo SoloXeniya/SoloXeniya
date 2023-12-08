@@ -28,6 +28,9 @@ jobs:
             dist/docker/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/docker/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
+            dist/docker/github-contribution-grid-snake.gif?color_snake=orange&color_dots=%23bfd6f6,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
+            dist/docker/github-contribution-grid-snake.svg?color_snake=orange&color_dots=%23bfd6f6,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
+
             dist/docker/github-contribution-grid-snake-dark.svg?palette=github-dark?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
             dist/docker/github-contribution-grid-snake-dark.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
@@ -37,9 +40,12 @@ jobs:
           test -f dist/only-svg/github-contribution-grid-snake.svg
           test -f dist/only-svg/github-contribution-grid-snake-dark.svg
 
+
+          
+
           test -f dist/docker/github-contribution-grid-snake.svg
-          test -f dist/docker/github-contribution-grid-snake-dark.svg
-          test -f dist/docker/github-contribution-grid-snake.gif
+          test -f dist/docker/github-contribution-grid-snake-dark.svg?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+          test -f dist/docker/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
