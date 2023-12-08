@@ -12,3 +12,4 @@
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
+![GitHub Contribution Grid Snake Animation](https://github.com/SoloXeniya/SoloXeniya/blob/output/docker/github-contribution-grid-snake-dark.svg)
