@@ -12,3 +12,4 @@
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 ![snake gif](https://github.com/SoloXeniya/SoloXeniya/blob/main/docker/github-contribution-grid-snake.gif)
+![snake gif](https://github.com/SoloXeniya/SoloXeniya/blob/main/docker/github-contribution-grid-snake.svg)
