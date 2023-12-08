@@ -23,9 +23,13 @@ jobs:
         with:
           github_user_name: SoloXeniya
           outputs: |
-            dist/docker/github-contribution-grid-snake-dark.gif?color_snake=orange&palette=github-dark,%00008B  , %000FF  ,%4169E1  ,%1E90FF, %87CEFA
-            dist/docker/github-contribution-grid-snake-dark.svg?color_snake=orange&color_dots=%23000000, %00008B  , %000FF  ,%4169E1  ,%1E90FF, %87CEFA
-            
+
+            dist/docker/github-contribution-grid-snake-dark.gif?palette=github-dark, color_snake=orange
+            dist/docker/github-contribution-grid-snake-dark.gif?color_snake=orange&palette=github-dark,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
+
+            dist/docker/github-contribution-grid-snake-dark.gif?color_snake=orange&color_dots=%23000000,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
+            dist/docker/github-contribution-grid-snake-dark.svg?color_snake=orange&color_dots=%23000000,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
+
 
       - name: ensure the generated file exists
         run: |
