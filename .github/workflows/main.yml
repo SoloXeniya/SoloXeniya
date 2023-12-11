@@ -18,6 +18,7 @@ jobs:
           github_user_name: SoloXeniya
           outputs: |
             dist/only-svg/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/only-svg/github-contribution-grid-snake-dark.svg?color_snake=orange&color_dots=%23000000,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
                      
 
       - uses: Platane/snk@v3
@@ -26,8 +27,7 @@ jobs:
           outputs: |
            dist/docker/github-contribution-grid-snake-dark.gif?color_snake=orange&color_dots=%23000000,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
            dist/docker/github-contribution-grid-snake-dark.svg?color_snake=orange&color_dots=%23000000,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
-           dist/docker/github-contribution-grid-snake.gif?color_snake=orange&color_dots=%23000000,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
-           dist/docker/github-contribution-grid-snake.svg?color_snake=orange&color_dots=%23000000,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
+
 
 
 
