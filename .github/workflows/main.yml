@@ -28,8 +28,12 @@ jobs:
       - name: ensure the generated file exists
         run: |
           ls dist
-          test -f dist/docker/github-contribution-grid-snake-dark.gif
-           test -f dist/docker/github-contribution-grid-snake-dark.svg
+            test -f dist/docker/github-contribution-grid-snake-dark.gif
+            test -f dist/docker/github-contribution-grid-snake-dark.svg
+            test -f dist/docker/github-contribution-grid-snake-dark.svg
+            test -f dist/docker/github-contribution-grid-snake-dark.svg
+            test -f dist/docker/github-contribution-grid-snake-dark.svg
+           
 
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
