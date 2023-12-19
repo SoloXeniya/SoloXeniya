@@ -11,4 +11,3 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=SoloXeniya&theme=great-gatsby&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-![GitHub Contribution Grid Snake Animation](https://github.com/SoloXeniya/SoloXeniya/blob/output/docker/github-contribution-grid-snake-dark.svg)
