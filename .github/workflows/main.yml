@@ -1,20 +1,14 @@
-
-
-name: manual run
+name: generate-snake
 
 on:
   workflow_dispatch:
 
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-
     steps:      
-
-      - uses: Platane/snk@v3
+      - name: Generate Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: SoloXeniya
           outputs: |
@@ -25,16 +19,14 @@ jobs:
 
       - name: Ensure the generated files exist
         run: |
-          ls dist
+          ls -R dist
           test -f dist/docker/github-contribution-grid-snake-dark.gif
           test -f dist/docker/github-contribution-grid-snake-dark.svg
           test -f dist/docker/github-contribution-grid-snake-dark.svg
           test -f dist/docker/github-contribution-grid-snake-dark.svg
           test -f dist/docker/github-contribution-grid-snake-dark.svg
 
-           
-
-      - name: push github-contribution-grid-snake.svg to the output branch
+      - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
