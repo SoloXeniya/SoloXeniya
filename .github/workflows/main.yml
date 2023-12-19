@@ -12,19 +12,14 @@ jobs:
         with:
           github_user_name: SoloXeniya
           outputs: |
-            dist/docker/github-contribution-grid-snake-dark.gif?color_snake=orange&color_dots=%23000000,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
             dist/docker/github-contribution-grid-snake-dark.svg?color_snake=orange&color_dots=%23000000,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
-            dist/docker/github-contribution-grid-snake-dark.svg?color_snake=orange&color_dots=%23000000,%001F33,%003366,%0056A7,%0077B5
-            dist/docker/github-contribution-grid-snake-dark.svg?color_snake=orange
-
+            dist/docker/github-contribution-grid1-snake-dark.svg?color_snake=orange&color_dots=%23000000,%001F33,%003366,%0056A7,%0077B5
+            
       - name: Ensure the generated files exist
         run: |
           ls -R dist
-          test -f dist/docker/github-contribution-grid-snake-dark.gif
           test -f dist/docker/github-contribution-grid-snake-dark.svg
-          test -f dist/docker/github-contribution-grid-snake-dark.svg
-          test -f dist/docker/github-contribution-grid-snake-dark.svg
-          test -f dist/docker/github-contribution-grid-snake-dark.svg
+          test -f dist/docker/github-contribution-grid1-snake-dark.svg
 
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
