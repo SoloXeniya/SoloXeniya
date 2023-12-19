@@ -29,6 +29,8 @@ jobs:
            dist/docker/github-contribution-grid-snake-dark.gif?color_snake=orange&color_dots=%23000000,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
            dist/docker/github-contribution-grid-snake-dark.svg?color_snake=orange&color_dots=%23000000,%238dbdff,%2364a1f4,%234b91f1,%233c7dd9
            dist/docker/github-contribution-grid-snake.svg
+           dist/docker/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+           dist/docker/github-contribution-grid-snake-dark.svg?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
 
 
